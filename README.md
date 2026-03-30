@@ -19,8 +19,6 @@ This app allows users to generate strong random passwords and copy them instantl
 
 ![App Screenshot](screenshot.png)
 
-> 📌 Make sure to add your screenshot image in the project folder and name it `screenshot.png`
-
 ---
 
 ## 🛠️ Technologies Used
