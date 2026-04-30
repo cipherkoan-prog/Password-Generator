@@ -1,104 +1,114 @@
-# 🔐 Strong Password Generator (Python + Tkinter)
+# 🔐 Password Manager (Tkinter)
 
-A simple and powerful **GUI-based Password Generator** built using Python and Tkinter.
-This app allows users to generate strong random passwords and copy them instantly.
-
----
-
-## 🚀 Features
-
-* Generate secure random passwords
-* Choose password length
-* One-click copy to clipboard
-* Simple and clean GUI
-* Lightweight and fast
+A simple and secure **Password Manager** built using Python and Tkinter.
+This application allows users to generate strong passwords, store login credentials, and retrieve them بسهولة using a clean GUI.
 
 ---
 
-## 🖼️ Preview
+## ✨ Features
 
-![App Screenshot](screenshot.png)
-
----
-
-## 🛠️ Technologies Used
-
-* Python 🐍
-* Tkinter (GUI)
-* Pillow (for icon support)
+* 🔑 Generate strong random passwords
+* 💾 Save website, username, and password
+* 📂 Store data locally using JSON
+* 🔍 Search and retrieve saved credentials
+* 📋 Copy password to clipboard
+* ⚠️ Overwrite confirmation & error handling
 
 ---
 
-## 📂 Project Structure
+## 🖼️ Screenshots
 
-```
-Password Generator/
-│
-├── main.py
-├── icon.png
-├── screenshot.png
-└── README.md
-```
+### 🔹 Main Interface
+
+<img width="627" height="665" alt="screenshot" src="https://github.com/user-attachments/assets/ac23b706-873e-4f84-9b49-caecf4ef0a55" />
+
+### 🔹 Save Password
+
+<img width="625" height="663" alt="save" src="https://github.com/user-attachments/assets/a39e0fa0-177e-40dc-b4d7-2893eb9202d4" />
+
+
+### 🔹 Search Password
+
+<img width="627" height="665" alt="search" src="https://github.com/user-attachments/assets/8f6b6c02-db22-4c55-abf9-0faacd698508" />
+
 
 ---
 
-## ⚙️ Installation
+## 🛠️ Tech Stack
+
+* **Python**
+* **Tkinter** (GUI)
+* **JSON** (Data Storage)
+* **PIL (Pillow)** for icon handling
+
+---
+
+## 🚀 How to Run
 
 1. Clone the repository:
 
-```
-git clone https://github.com/your-username/password-generator.git
-```
-
-2. Navigate to the project folder:
-
-```
-cd password-generator
+```bash
+git clone https://github.com/your-username/password-manager.git
 ```
 
-3. Install required modules:
+2. Navigate to project folder:
 
+```bash
+cd password-manager
 ```
+
+3. Install dependencies:
+
+```bash
 pip install pillow
 ```
 
-4. Run the program:
+4. Run the app:
 
-```
+```bash
 python main.py
 ```
 
 ---
 
-## 🎮 How to Use
+## 📁 Project Structure
 
-1. Enter the number of characters
-2. Click **"Generate Strong Password"**
-3. Copy the password using **"Copy to Clipboard"**
-
----
-
-## 💡 Future Improvements
-
-* Add password strength indicator
-* Add options (letters, numbers, symbols)
-* Save generated passwords
-* Dark mode UI
-
----
-
-## 🤝 Contributing
-
-Feel free to fork this project and improve it!
+```
+password-manager/
+│── main.py
+│── password.json
+│── icon.png
+│── screenshots/
+│   ├── main.png
+│   ├── save.png
+│   └── search.png
+│── README.md
+```
 
 ---
 
-## 📜 License
+## ⚠️ Notes
 
-This project is open-source and free to use.
+* Data is stored locally in `password.json`
+* Do NOT share this file publicly if it contains real credentials
 
 ---
 
-## 👨‍💻 Author
+## 🚀 Future Improvements
 
-Made by **Sayan Oraon**
+* 🔐 Encrypt stored passwords
+* 👁️ Show/Hide password toggle
+* 📋 Display all saved websites
+* 🎨 Improve UI design
+
+---
+
+## 🙌 Author
+
+Developed by **Sayan Oraon**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
